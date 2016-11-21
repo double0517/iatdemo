@@ -1,0 +1,36 @@
+============================================================
+Time  2016/11/16 21:03:51 955 
+============================================================
+[2016/11/16 21:03:51 957] isr_1conn  2218 SYS_MSG_LOAD_CLOUD  
+[2016/11/16 21:03:51 957] isr_1conn  2239 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(377b6b0) 
+[2016/11/16 21:03:51 958] isr_1conn  2239 SYS_MSG_REGCB_CLOUD param0 =   cloud_rslt_cb  param1 =  func(377b700) 
+[2016/11/16 21:03:51 958] isr_1conn  2239 SYS_MSG_REGCB_CLOUD param0 =   cloud_err_cb  param1 =  func(2351670) 
+[2016/11/16 21:03:51 958] isr_1conn  2239 SYS_MSG_REGCB_CLOUD param0 =   cloud_status_cb  param1 =  func(2351738) 
+[2016/11/16 21:03:51 959] isr_1conn  1417 onesoc  
+[2016/11/16 21:03:51 959] isr_1conn  1418 ASR_CLOUD_MSG_SSB  
+[2016/11/16 21:03:51 960] isr_1conn  1433 isr_1conn  cloud_cisr1PdHHBHNC1vstCjjad1B2t7XmtdkvW  268436457  1442971076  
+[2016/11/16 21:03:51 960] isr_1conn  1621 nil  
+[2016/11/16 21:03:51 960] isr_1conn  1691 speex-wb  
+[2016/11/16 21:03:51 960] isr_1conn  1769 net_once_bytes  nil  
+[2016/11/16 21:03:51 961] isr_1conn  1774 need_encode  true  
+[2016/11/16 21:03:51 961] isr_1conn  1776 once bytes  122  
+[2016/11/16 21:03:51 962] isr_1conn  1800 User set url is   nil  
+[2016/11/16 21:03:51 962] config     78   select default  
+[2016/11/16 21:03:51 962] config     93   use general cloud  
+[2016/11/16 21:03:51 963] transport  603  paramkvsport is   nil  
+[2016/11/16 21:03:51 963] transport  611  ns_enable=  0  
+[2016/11/16 21:03:51 963] transport  655  url.full=  nil  
+[2016/11/16 21:03:51 963] transport  838  net type:  standard  
+[2016/11/16 21:03:51 963] transport  839  net operator:  def  
+[2016/11/16 21:03:51 963] transport  840  use proxy:  false  
+[2016/11/16 21:03:51 964] transport  1071 ns_enable =  0  
+[2016/11/16 21:03:51 965] transport  155  [dns] [0] response 59.107.24.13  
+[2016/11/16 21:03:51 965] transport  163  59  107  24  13  
+[2016/11/16 21:03:51 965] transport  199  ip front is  59.107.24  
+[2016/11/16 21:03:51 965] transport  265  expected ip  
+[2016/11/16 21:03:51 965] network    89   iptoenv ,  ipcache  dev.voicecloud.cn  def  59.107.24.13  
+[2016/11/16 21:03:51 971] transport  1138 [soc] connect   59.107.24.13  80  
+[2016/11/16 21:03:51 971] transport  1155 mspsoc.open,prot_type=  tcp  
+[2016/11/16 21:03:52 096] isr_1conn  1827 ASR_CLOUD_MSG_AUW  16000  1  
+[2016/11/16 21:03:52 097] isr_1conn  1844 ×þTÿ  +ÿ?ÿ  
+[2016/11/16 21:03:52 265] isr_1conn  284  netperf:  92  

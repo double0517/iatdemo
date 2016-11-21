@@ -1,0 +1,1161 @@
+============================================================
+Time  2016/04/22 10:08:28 312 
+============================================================
+[2016/04/22 10:08:28 325] isr_1conn  2218 SYS_MSG_LOAD_CLOUD  
+[2016/04/22 10:08:28 325] isr_1conn  2239 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(341b9a8) 
+[2016/04/22 10:08:28 325] isr_1conn  2239 SYS_MSG_REGCB_CLOUD param0 =   cloud_rslt_cb  param1 =  func(341b2a8) 
+[2016/04/22 10:08:28 325] isr_1conn  2239 SYS_MSG_REGCB_CLOUD param0 =   cloud_err_cb  param1 =  func(341b4a8) 
+[2016/04/22 10:08:28 326] isr_1conn  2239 SYS_MSG_REGCB_CLOUD param0 =   cloud_status_cb  param1 =  func(341afa8) 
+[2016/04/22 10:08:28 326] isr_1conn  1417 onesoc  
+[2016/04/22 10:08:28 326] isr_1conn  1418 ASR_CLOUD_MSG_SSB  
+[2016/04/22 10:08:28 326] isr_1conn  1433 isr_1conn  cloud_cisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5  268436457  1442971076  
+[2016/04/22 10:08:28 326] isr_1conn  1488 not login!  
+[2016/04/22 10:08:28 328] isr_1conn  1621 nil  
+[2016/04/22 10:08:28 328] isr_1conn  1691 speex-wb  
+[2016/04/22 10:08:28 328] isr_1conn  1769 net_once_bytes  nil  
+[2016/04/22 10:08:28 328] isr_1conn  1774 need_encode  true  
+[2016/04/22 10:08:28 328] isr_1conn  1776 once bytes  122  
+[2016/04/22 10:08:28 328] isr_1conn  1800 User set url is   nil  
+[2016/04/22 10:08:28 328] config     78   select default  
+[2016/04/22 10:08:28 329] config     93   use general cloud  
+[2016/04/22 10:08:28 329] transport  603  paramkvsport is   nil  
+[2016/04/22 10:08:28 329] transport  611  ns_enable=  0  
+[2016/04/22 10:08:28 329] transport  655  url.full=  nil  
+[2016/04/22 10:08:28 329] transport  838  net type:  standard  
+[2016/04/22 10:08:28 329] transport  839  net operator:  def  
+[2016/04/22 10:08:28 329] transport  840  use proxy:  false  
+[2016/04/22 10:08:28 329] transport  1071 ns_enable =  0  
+[2016/04/22 10:08:28 338] transport  155  [dns] [0] response 117.121.21.148  
+[2016/04/22 10:08:28 338] transport  163  117  121  21  148  
+[2016/04/22 10:08:28 338] transport  192  iplist not avail  
+[2016/04/22 10:08:28 338] transport  251  no iplist now  
+[2016/04/22 10:08:28 338] network    89   iptoenv ,  ipcache  dev.voicecloud.cn  def  117.121.21.148  
+[2016/04/22 10:08:28 338] transport  1138 [soc] connect   117.121.21.148  80  
+[2016/04/22 10:08:28 338] transport  1155 mspsoc.open,prot_type=  tcp  
+[2016/04/22 10:08:28 381] transport  461  [soc] [0] connected  
+[2016/04/22 10:08:28 381] isr_1conn  389  transport connect ok  
+[2016/04/22 10:08:28 382] isr_1conn  1127 send ssb request  
+[2016/04/22 10:08:28 382] isr_1conn  852  lver:  nil  
+[2016/04/22 10:08:28 382] isr_1conn  857  cfg_ver:  nil  
+[2016/04/22 10:08:28 382] transport  1191 build http request.  
+[2016/04/22 10:08:28 384] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 538
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:181
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=ssb&ssm=1&auf=audio%2FL16%3Brate%3D16000&cver=5%2E0%2E16%2E1109&net%5Ftype=standard&csid=cisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5&key=0c4G4KJ85svIyLkDp4/LCH0w==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+@€†°ƒ˜xyxy|z{|  
+[2016/04/22 10:08:28 384] transport  483  [soc] [0] send ok  713  
+[2016/04/22 10:08:28 474] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:28 476] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 174
+X-Req-Date: 2016/04/22 10:08:25 428
+Cache-Control: no-cache
+CL: 174
+X-Res-Date: 2016/04/22 10:08:25 461
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&uid=d4413309302&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:28 476] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:28 476] transport  1419 is_update  true  
+[2016/04/22 10:08:28 476] transport  1423 port updated  80  
+[2016/04/22 10:08:28 476] transport  1425 switch  80  
+[2016/04/22 10:08:28 476] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:28 476] isr_1conn  457  response  
+[2016/04/22 10:08:28 476] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:28 476] ntp        10   ntp_process enter  
+[2016/04/22 10:08:28 476] ntp        53   ntp delay_rtt=  60  , offset =   -2.985  
+[2016/04/22 10:08:25 491] isr_1conn  568  sid =   iat3ca199ff@ch00430a74d39947b400  
+[2016/04/22 10:08:25 492] isr_1conn  574  not QUL_SUPPORT  
+[2016/04/22 10:08:25 492] isr_1conn  581  time cost by session begin command:  94  .  
+[2016/04/22 10:08:25 492] isr_1conn  595  0  2  2  0  
+[2016/04/22 10:08:25 527] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  1  
+[2016/04/22 10:08:25 527] isr_1conn  1844 RIFF  WAVE  
+[2016/04/22 10:08:25 527] isr_1conn  1847 fmt   
+[2016/04/22 10:08:25 527] isr_1conn  1850 data  
+[2016/04/22 10:08:25 530] isr_1conn  1210 [session] send 1th audio  
+[2016/04/22 10:08:25 530] isr_1conn  1212 totalsz =   488  
+[2016/04/22 10:08:25 530] isr_1conn  1215 start netperf_fs_timer  
+[2016/04/22 10:08:25 530] transport  1191 build http request.  
+[2016/04/22 10:08:25 530] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 777
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=1&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc588irsDHtuaHnoAbJ1fi3OfM=
+----
+CL:496
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+äÙXùê’ë¯İ•F¶Í%·iò—Z<WÿÜÄ$¦ƒR	ÜÄ	ÜÄ	ÜÄ	4ÄU_ô ÷ÉÌlßÑÒæ1MÄ<Êó¾W:öëò;ÜïCB"Ë8c([¤òôÍÖÔcR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôÔé„³vä>SA¨ƒ…L•EÏÍXëåR¯'óRä‚ã³h›mwCpûì£R	ÜÄ	ÜÄ	ÜÄ	ÜÄU_å÷Éì¨¡@p3AÁæŒŒ‹ûÉH4
+sÃJP¤¥ÖeÙâ&%$cR	ÜÄ	ÜÄ	ÜÄFõ'ówC»Ñ©§ôû  
+[2016/04/22 10:08:25 531] transport  483  [soc] [0] send ok  952  
+[2016/04/22 10:08:25 566] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:25 566] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:25 560
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:25 564
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:25 566] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:25 567] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:25 567] isr_1conn  425  size =   488  
+[2016/04/22 10:08:25 567] isr_1conn  457  response  
+[2016/04/22 10:08:25 567] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:25 567] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:25 728] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:25 731] isr_1conn  1210 [session] send 2th audio  
+[2016/04/22 10:08:25 731] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:25 731] transport  1191 build http request.  
+[2016/04/22 10:08:25 731] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc584ONsu/TuvMhoAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+\0ÇáÃhèe11o’;,±3O2ìİúhL¥»‰D²Á¦\«O’YäVD"<ÌƒPª¥HúØúÜDúà>UZìöA«…É5Ë­‘Ğ*"m´î…>ÂÄ¯XjWNjb I‹zmÕbÉçƒQz)ÚDÄ§	,âUZú&eKp·±İÀèYîÉé@&˜í7ÌÄÔzPO˜Kx(ô¿ı˜¹zjR˜DÄ4ÄÜâê¤ÄUZêÓÕŞ=]3ÔaíD„vQç&ö…‘Ï• ı·,ÒÌß]£w±ªFò?`sRjìş,ÈúÜşQm  
+[2016/04/22 10:08:25 733] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:25 758] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:25 759] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:25 761
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:25 765
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:25 759] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:25 759] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:25 759] isr_1conn  425  size =   610  
+[2016/04/22 10:08:25 759] isr_1conn  457  response  
+[2016/04/22 10:08:25 759] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:25 759] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:25 930] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:25 933] isr_1conn  1210 [session] send 3th audio  
+[2016/04/22 10:08:25 933] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:25 933] transport  1191 build http request.  
+[2016/04/22 10:08:25 933] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58/weuiqmNJb/oAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+±¶;f€•÷4A=v¬¨æ>¢vÈÅÚ­İöD«êW|Ã)ó¤„Úq–Kî†SÊß):äÄ
+ÛD
+7%UZà&Öh^@3ÆÈ_é`^#Z×¢µËLK‚É,Ä¹)¬ÖôÔƒˆõ	ÈßÙØÓcR*ß
+ÛZı§"½ÜÄ~UZà'‘(“¦Ğ¬@ÍAd™W2Şb{…2ÀıôÖ§Ó†œij¸(;ç´ Ğ5’±3sR]D
+ÜşúÜÄ
+ß,UX¼®·Hè^D¢”ûì^ß2ÛÑgÓ…ş	<…°nÅÖ‡Tâ¿œÈFx.(RÜÚÜãI,Äzo¤‚;hÄèÿŞ_>€ñÊfwuò‹Çé‰éÕ„3	D®ƒ9:Ïˆİ}^xÎ™ïqSR)ÜÄ9ß	8İDj~UZıh
+‹ş_œäwÉzåT(-ü­ªy™U_`6ğµØ(eHg¦c$¹ÑƒØ—ƒRÜÚ	ÜÅIéìÄUZä&'‹î^BÏ.-ôÛ²Ö2şß¸áJxşª¤¾/»Ñ¯ûZQ?¬Î'Ò¢³×º³S)ÙÉ¡ÄİhøÜÈUZíGÃËÎšJÓSkxâõÏ©c]Î²d­"—<à-È‰Õ(FNÀÒQÜÚûì®¶S ÂEøUZö§ãK–6IvS'¿1ı{Fë§åôpÆóvÄÔ]—Wë
+Ø€?‹«_ÙSJ
+[2016/04/22 10:08:25 934] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:25 959] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:25 959] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:25 963
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:25 965
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:25 959] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:25 959] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:25 959] isr_1conn  425  size =   610  
+[2016/04/22 10:08:25 960] isr_1conn  457  response  
+[2016/04/22 10:08:25 960] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:25 960] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:26 129] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:26 133] isr_1conn  1210 [session] send 4th audio  
+[2016/04/22 10:08:26 133] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:26 133] transport  1191 build http request.  
+[2016/04/22 10:08:26 133] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58yBmPwztNz^/oAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+–ŒÎQ'…dˆ¢zI(ºbØNÂÂ¹.T³ÌNT‹ØKv½¥5%Yÿ‰¨hÛtP|ÃP¨ß~û\Ê{D
+ìÄUZì¶“‹Ş#¯ê@²Çì%©2‘
+SÙĞşv¸’KÄË:ÆğÛ¤…º|™Íü¡†#RkÙÄkÜ,ú¤ÅJÜÄU\±š]ëän’ö^£Œy-R«E~ˆ`âCö¤ ˜kh<Å@ÕRK8ØL#RšÙò
+Û„X¬ ÄU\±›]ë–ª^¤mìØÀIéıa‰£d „Ô¯çƒİ<‡ÒµÜ?‹0õÙ°”÷£RšÜÉ={šäÄÖ- 
+7±¸š§‹íßöİ= ]:£>Rÿn‰§„¸áÿŠ•„­ >)çz%÷ÆéM©°:HR-ÜÈ
+ÜÄkGDdÒUZàFc+úš-k’rœUµ7ˆú³ÿçÛäã> Sg˜\?oeÏ„ ³eŒlbÃS¨¥~kdÄ¤Ä	áÄUZî	à«šv„‘ÏÔ–òÒİç€ÎôQâÎô¯äÈT:‘5ÀO„ÓLÌÖQñCR)Ø(èØÛíDís>UZàk^M3/QèÃöAîà­F9ƒ[0DÙÀ/WI.¯…q¢i(Ğ‡ÓP«ÜÅK|úÅ¹Õ ¯àÙUZğA«^0bi,ò“á÷½2Ô"œ<€Èw¤ÑÒ—/ùq“õ"'ˆE[èYl×
+[2016/04/22 10:08:26 134] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:26 159] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:26 159] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:26 163
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:26 166
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:26 159] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:26 159] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:26 159] isr_1conn  425  size =   610  
+[2016/04/22 10:08:26 159] isr_1conn  457  response  
+[2016/04/22 10:08:26 159] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:26 159] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:26 330] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:26 333] isr_1conn  1210 [session] send 5th audio  
+[2016/04/22 10:08:26 333] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:26 333] transport  1191 build http request.  
+[2016/04/22 10:08:26 333] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58wdZvAXO1P4ZoAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+(	æ\)ÏÒÛ¾“ƒ'ƒÖÿ”…d{º;vb¶©?HÃ)'ñ'Ï]úa  
+[2016/04/22 10:08:26 334] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:26 343] isr_1conn  329  send_ok_num, timer_num, send_average =   2318  2  1159  
+[2016/04/22 10:08:26 343] isr_1conn  332  netperf =   90  
+[2016/04/22 10:08:26 343] isr_1conn  333  start netperf_other_timer  
+[2016/04/22 10:08:26 372] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:26 372] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:26 363
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:26 369
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:26 373] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:26 373] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:26 373] isr_1conn  425  size =   610  
+[2016/04/22 10:08:26 373] isr_1conn  457  response  
+[2016/04/22 10:08:26 373] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:26 373] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:26 531] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:26 534] isr_1conn  1210 [session] send 6th audio  
+[2016/04/22 10:08:26 534] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:26 534] transport  1191 build http request.  
+[2016/04/22 10:08:26 534] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc588NjH9bCAen^oAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+9¸>@9¸óe‘½$"€*Ç„J-ˆöA¤²‡“˜	wvFŠ»1(>c„dsR(ß8ÜÄÜÄ¤ÄUZàæŞ&dz±ãÿ$a„œí2*ğç]—i´¯k”º&„°¶Å°*4^#R«|DÜÛJÜËJÜÄşUX°„ô(D^zÙÀ2ú%Œ÷ÈÂÑ)¢9Ÿ¤²§ÕŒ³T®åÜÎÏ<.µhÔSR*\ø
+ßÜÄßşUX°ºôË	¾ ÑÖØR5g6ÆİâÆ‹şí~Œt¼X`ãhßš¿±èÖôe£acP«ß>kßİD6—ğ  
+[2016/04/22 10:08:26 536] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:26 561] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:26 561] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:26 565
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:26 568
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:26 562] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:26 562] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:26 562] isr_1conn  425  size =   610  
+[2016/04/22 10:08:26 562] isr_1conn  457  response  
+[2016/04/22 10:08:26 562] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:26 562] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:26 731] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:26 734] isr_1conn  1210 [session] send 7th audio  
+[2016/04/22 10:08:26 734] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:26 734] transport  1191 build http request.  
+[2016/04/22 10:08:26 734] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58/H^NWSqvbv4oAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+@íÛŸ@*¢C”iMÊwË¯úrÜfQ‡>íM²¨Ìè¥O´îÈ7ÚˆÄÈñ°1£R)ÜÈ	İZ	ÜÄèßUZà%Tª‚.‘Ô02¦&_ss24›#(eV\vÎL9¬h µ²!º(7¦4qZƒãR˜ßïkDş
+ÜÛîUZêxÓ*>`‚¨†:8v‘*éª÷ò,´¥D¢”³Ï§ÊEOè©mè8<¸óR*ÜÄ
+ßDß,úÛˆUZêĞ¨#ŞÊ‰<eÓ%RÒğİ@mZ•{¤¼q.²¸w‘ùÃ?·¿WX cãÒzß
+ÙÄıÜÅSJtÎèÌHËÆ¤ÕTB°ÃÑ©ñ¿Gé¢Ñ¥r1Ä»"š)ârÖ°f?Œƒ½ö«áiÓRªØD
+¤Ú
+¬Ä¤ÚUZäÇËÉˆÕ8Ş°#FŞ>Ñá|ò
+¥ê³	D 2’»l±·¹…rhöâ”óQÄ
+ßJßß"UY¼ÆÍ
+ô›ÙŸ8¬k\±R)ÙWbCÖŞHÀsPtfÙÅ…+¢GL,®Yás,ÜÄ¤äÜÄş¤ÄU_qÒÈæ”§µwcsaa|¤åî#=EÅå$\ÇâÍÜî¡ø  
+[2016/04/22 10:08:26 736] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:26 754] isr_1conn  311  send_ok_num, timer_num, send_average =   3538  3  1179  
+[2016/04/22 10:08:26 754] isr_1conn  314  netperf =   90  
+[2016/04/22 10:08:26 762] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:26 763] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:26 765
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:26 768
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:26 763] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:26 763] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:26 763] isr_1conn  425  size =   610  
+[2016/04/22 10:08:26 763] isr_1conn  457  response  
+[2016/04/22 10:08:26 763] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:26 763] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:26 932] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:26 935] isr_1conn  1210 [session] send 8th audio  
+[2016/04/22 10:08:26 935] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:26 935] transport  1191 build http request.  
+[2016/04/22 10:08:26 935] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc581JrcdCmYDaEoAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+â¥Ş}vOvZ~À’æÂúY8Ø<±ŞÙ§¥ÃQrìÍ‘«¦¶_t ¹ÚÙTƒ÷©hÄ	›¯yc~şU^G+ûİsZtèO”Ê  
+[2016/04/22 10:08:26 936] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:26 961] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:26 961] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:26 965
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:26 968
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:26 961] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:26 962] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:26 962] isr_1conn  425  size =   610  
+[2016/04/22 10:08:26 962] isr_1conn  457  response  
+[2016/04/22 10:08:26 962] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:26 962] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:27 134] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:27 137] isr_1conn  1210 [session] send 9th audio  
+[2016/04/22 10:08:27 137] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:27 137] transport  1191 build http request.  
+[2016/04/22 10:08:27 137] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc581yxFDfhnHnNoAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+w0&áÖ•eğÅ5şù“¯êâ%Ó[±Qb´ê(¹¥B¤%f^¯K1@Ó’™İl	ß	­bùÜÄîUX² ö  
+[2016/04/22 10:08:27 138] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:27 164] isr_1conn  311  send_ok_num, timer_num, send_average =   4758  4  1189  
+[2016/04/22 10:08:27 164] isr_1conn  314  netperf =   90  
+[2016/04/22 10:08:27 174] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:27 174] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:27 167
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:27 170
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:27 175] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:27 175] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:27 175] isr_1conn  425  size =   610  
+[2016/04/22 10:08:27 175] isr_1conn  457  response  
+[2016/04/22 10:08:27 175] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:27 175] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:27 335] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:27 338] isr_1conn  1210 [session] send 10th audio  
+[2016/04/22 10:08:27 338] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:27 338] transport  1191 build http request.  
+[2016/04/22 10:08:27 338] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc581qGwcjMdC5voAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+„ìZ·¸×o³6sdî?Sz½ŠtÿşV˜aîê6|Z4FCÇjÙr$]“[¥£Ó¨Üş¹İ	¡¹ÜâUX£ôÁAˆÑ·ù²°ŞıÇËš’œ¤­Î4>âNËóå9ñÜD0Ş=@BÃĞ©{RíDèÄÚ4òşUX¿ãçuïw€«(áFÿÇ%t}~İe%â>R‹aÎ"9
+O@—wá3‹•êiC6›ÜÄ
+ÈÜÄiÒnU][ºû’oº˜_Y¦ÿ'&2$„i†¢1çç#</Nìç)–+4xÊOÙ#uš³-‹şë½^ÒØ(OÈa=EÀ¾ÃÆ0,Aß~!ºæõ^IŒ¢©}‚cUÑxDL¬HîG:nt$cä;Ğt(É¸Ù‘RU\6H úG´ü%XFó!‡Ä@áHÇQåe.xºxMË¶Ï\Ê™6’"/¦„£çèÒééş8h_{‰ºóU\4øb[ZKk\‘ÆÎÚ«¾1Ëx¿Kİ_º  
+[2016/04/22 10:08:27 340] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:27 364] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:27 364] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:27 368
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:27 371
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:27 364] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:27 364] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:27 364] isr_1conn  425  size =   610  
+[2016/04/22 10:08:27 364] isr_1conn  457  response  
+[2016/04/22 10:08:27 364] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:27 365] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:27 535] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:27 539] isr_1conn  1210 [session] send 11th audio  
+[2016/04/22 10:08:27 539] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:27 539] transport  1191 build http request.  
+[2016/04/22 10:08:27 539] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc588ORjW3jCZ6/oAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+âz¥şÕçŞ>%¸´^<€ö%x¥>å;3£ymÿ•i2ä¤½Zæ?İôØËé#7è#ŸÙÇ¹Ø„é'mU\']€&ÊKaÍ¦bqn™öPaĞå´Á"5iìÛ#ÙëH­ïn»$ÃV]òb ãw)„îh¥EZr·hîU\'I„&(^ øå¦M‘8n³m%ÿE$@ÎÉ
+O6GQî•t"(g@(stšÙDÜæ ÿj_tUZ7ÅC8 	ÕÊ¢d0]ö¾“¨,äjŒ<UtT(CÙ(ÊÚ‚¿ÿzzs‹ct™ö*èÙµxÈàdK±æ
+ƒ¤çÈ²Ê×:QØ!“+Ùâµ9•ùu&iÕ×?/F¯aÒVJeÄ¾w÷#·:Ä	š4½Üı™üÄUY6ÅKàóï…øßA±îåQYãˆÆ™ÅëV»9$Áù¢}º›)÷MRœ<O<d+”³ÑydÄ	ß?yé2hílUY5†OE(›Ãµaßr¡7ôjQ-ñõQL¥|¹xIş.­o.4>¯æÈBO“±ÀqÃ™ÜøùPŸ;.	xŞlUZ8SÅB²T
+iº„Â‘öJlÔi‰ËNĞ¿—1«t° Ãî¿¦‚ÎI·¯÷CCş¹CŸ9œôìÁïëH€UX«ÈŠÂº„ÚQ5"üP-tlI¤ìwjÖ¿qaÃÊØ«Ê\“#"”á
+[2016/04/22 10:08:27 540] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:27 566] isr_1conn  311  send_ok_num, timer_num, send_average =   5978  5  1195  
+[2016/04/22 10:08:27 566] isr_1conn  314  netperf =   90  
+[2016/04/22 10:08:27 566] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:27 567] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:27 569
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:27 573
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:27 567] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:27 567] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:27 567] isr_1conn  425  size =   610  
+[2016/04/22 10:08:27 567] isr_1conn  457  response  
+[2016/04/22 10:08:27 567] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:27 567] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:27 736] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:27 740] isr_1conn  1210 [session] send 12th audio  
+[2016/04/22 10:08:27 740] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:27 740] transport  1191 build http request.  
+[2016/04/22 10:08:27 740] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc589rIwdENKgf0oAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+)GD¦.ô®{Öä6Ğh¼sÈ&ëğ(>ş§¶BæÑ¨rëL6ˆzµş‚Ô×õüÃWKß,h¦cx#¢CcnU\³ål¦1‡.ƒà]©]Ãò$şüİ¤Gcï>®£ã_C^,î¦ìÒÌq›+6â»hÕ« ÉÉUY°Ç¯ËOlvmÒ»êdĞ˜Ø½~iU„£­ë­{,÷†˜ÿÇw“4c´› ~8t2I­8yaûNUY£¡®<â›İ–çS¸Ú6èut½ùxı´Î¾PK
+·8CîÁ™\IW4JÊLÃ™¥`èJ`(…â<o??'Kø±? ^÷i4$äYãªémÆ¨S	©T¸‡‘Šäc`“§€+¹S€ßƒWêhÎKZA[H7kzã~UZíÆîşUßævâàÓªöl|É¾&¸¾ğÛ÷şsİ ÈE$8R(òÏCšÙU¨ƒ{qÊ*TUY£©¨şî³x‹ÖcéWîåÎ¿•«· 1“•'˜{ì‹vâÂf¶dÜû_ê34š*)[zÙ{£›+E9îUY¼ıÿv¶4ßÊ&©2Ô4D†“˜Ì=D¾ReOäSÌÁ­*—L¡`}øÇ›€²»àE÷’6hjU_î7ë’Ú%¸¯¤»ûãhìô¬¢ªşBöÊ±ñ.¾¦ÿ±Íˆzäâû
+[2016/04/22 10:08:27 742] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:27 766] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:27 766] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:27 770
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:27 773
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:27 766] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:27 766] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:27 766] isr_1conn  425  size =   610  
+[2016/04/22 10:08:27 766] isr_1conn  457  response  
+[2016/04/22 10:08:27 766] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:27 766] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:27 938] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:27 941] isr_1conn  1210 [session] send 13th audio  
+[2016/04/22 10:08:27 941] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:27 941] transport  1191 build http request.  
+[2016/04/22 10:08:27 941] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58/Lgfe8VQ1zcoAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+CœLÌ±Æ=Ap2–®Ar&øÎØ‰ªüË¨×yGrGç‚&¾·õ$I5Óy‹x1{ÁËØch!U_è ¥L_†ƒdvo‚4]LFÇŞ*²Ü0“‹ZÍª­˜!£  
+[2016/04/22 10:08:27 942] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:27 968] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:27 968] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:27 971
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:27 974
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:27 968] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:27 968] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:27 968] isr_1conn  425  size =   610  
+[2016/04/22 10:08:27 968] isr_1conn  457  response  
+[2016/04/22 10:08:27 968] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:27 968] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:27 969] isr_1conn  311  send_ok_num, timer_num, send_average =   7808  6  1301  
+[2016/04/22 10:08:27 969] isr_1conn  314  netperf =   90  
+[2016/04/22 10:08:28 139] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:28 142] isr_1conn  1210 [session] send 14th audio  
+[2016/04/22 10:08:28 142] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:28 142] transport  1191 build http request.  
+[2016/04/22 10:08:28 142] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc589w^vCRLqKFsoAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+…6õÒ!ë\ßò…[›±xPDxÃqÖ”€v³nà¡=3Cy0ú¡7Ë:xa!è'Ù(l¹ÒidëU\—\gØ•-!¤R|az&x5ßEû“^¶Ûa§cj–‡j¯ò\~&$wÜÃ!|«yÍûzÍK$VnU\	,øA÷0‡z³s.2œü7•	‘°˜äÉ£ÎÂ75ö‘ùLû¯3
+W¿»C
+Ûôºİønl¸Ì  
+[2016/04/22 10:08:28 144] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:28 168] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:28 169] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:28 172
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:28 175
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:28 169] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:28 169] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:28 169] isr_1conn  425  size =   610  
+[2016/04/22 10:08:28 169] isr_1conn  457  response  
+[2016/04/22 10:08:28 169] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:28 169] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:28 340] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:28 343] isr_1conn  1210 [session] send 15th audio  
+[2016/04/22 10:08:28 343] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:28 343] transport  1191 build http request.  
+[2016/04/22 10:08:28 343] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58/1yBbpFs5DwoAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+ŒvÚÛ,tO¸·‹ÀòioıòKlûğmğkşï<ï§C¥ªSÉz©ÈÖ™ÂSOD«“SÉÙÄÜØß
+ÙÒşU]^¸ÍíŞ8˜QæŒBOÑâî8õÚ3*ıÓj«·/<†Öµ×7œ‚W1,6i)3ÓzÜÄÜÄèÜÅ~U[<©Jƒ×É^úY¨ÀárJ4Ãus«Oğ¼øZ
+[%’Üø§7Œf °‡ÚY#Rœ¤Äïßÿß>ŞUZş2¯!=ÚÂ6è{›à
+t·Úû&Òš“S_3WhÚËÿ…Ha¯„wÿEs®íÜÄ
+ÜÄÜÄ§(WÔÅJs¯.æo·…Ñİ‘À(…#.—™RUu5<#úöÑÚ;b»Eá÷Å¢ò¸?é{s¶™ÜÅÏDÜÄÜÄU[ğl«æ>¯¢:ƒRí¢†ıë²&X{­8¾B1¥ä˜xZ9º™øÒ3ôğ£ÛLÜÄÜÄÜÄÜÄU^Qªì²Nr?¥_pÅ(­3‹2ıİJØ[çÔ d°ŠUg”ÿö¯d˜Ê€ñÓSßÂ¤Ä|Ä
+İDU^M¹×&D¥'à?¨)ÉÈı!Ğ
+ËU%<À(³æêLÇ4{¬§Ùo!B³;iÜDøFh¹-J+İU[¬®8è,óí,Feš€™şçGÖ—e†õ•ç¸‰lÚ¤Yõ—ğrkÌ’
+[2016/04/22 10:08:28 345] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:28 369] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:28 369] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:28 373
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:28 376
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:28 369] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:28 369] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:28 369] isr_1conn  425  size =   610  
+[2016/04/22 10:08:28 369] isr_1conn  457  response  
+[2016/04/22 10:08:28 369] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:28 369] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:28 379] isr_1conn  311  send_ok_num, timer_num, send_average =   9028  7  1289  
+[2016/04/22 10:08:28 379] isr_1conn  314  netperf =   90  
+[2016/04/22 10:08:28 541] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:28 544] isr_1conn  1210 [session] send 16th audio  
+[2016/04/22 10:08:28 544] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:28 544] transport  1191 build http request.  
+[2016/04/22 10:08:28 544] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc583qN6DpfiBaRoAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+­+EŞÛÀ
+éX±6
+ôˆË
+Rr}êİÍ¨¿ƒxs¨¨`Ã¹ÕM	Äe†ÿó˜ 3/GÈûµI£îU[·®:ğ7ÌµsCÙãJ|6ü'™¶@t´_a(Š¡‘¸R’yÎº÷…ÅÿÅL‚\£(¡,9Zi„·Û,nU\½‰:ûîlÁş#<=RfÁÁJ ß¹ÿ_İ¤¢•€óúÈÕS5èšµi¶ãšªÊ0İœ“ZíU[¹ho;ÅŞö]óÔ^ï€)™îIúwv×Ù—#PXzò¢îºbYÈ£æSFŸ`qÿ(œŸ_'éÂ/¬lÙ×Ÿ¯8½VjOå$Ï.úÄ£É|±îórÅ³7‘wH>¾Yw«ØÅqQÈCD¬«•Âšü#±İ‡ÃnU\™jÊù_„Ø,¤YØ†=Dd¶óëkîî½«6©1õ*†¿ÛşXÆqùGæÁ:˜­¸q[0ÎU\”Y‡9w+›6Qßğn^Õç¼4„YVÓ­>>çwDäAup´^¯*¬Í cä›Ô[©ßˆém‰‰YÎU\†~ËÙ
+7°ö‰  
+[2016/04/22 10:08:28 545] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:28 570] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:28 571] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:28 573
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:28 577
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:28 571] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:28 571] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:28 571] isr_1conn  425  size =   610  
+[2016/04/22 10:08:28 571] isr_1conn  457  response  
+[2016/04/22 10:08:28 571] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:28 571] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:28 742] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:28 746] isr_1conn  1210 [session] send 17th audio  
+[2016/04/22 10:08:28 746] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:28 746] transport  1191 build http request.  
+[2016/04/22 10:08:28 746] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58yMziOflZSseoAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+K‘äÎÉÈª!½³E"¡éSFIå›~à…É“´n¾¹÷gDÉG.ªÆÀ=£è‚³5‰LÅ9ÂØ¤Ä9èNU\ˆGËÄ/7œ¡_3'àSij‡À|ÿô´À²hæØVvÄ“ÿê,” l„ùÃÙçÃ4˜İDIìØ9?™ßE.U\†Vfév9™ªì
+l'Á¨ÊÇĞåü„ojÀˆfı­V¯÷h*ÉpŒ%i—íÀl#4™ìşØ$ÅÅëÜÄŞU\ŠpbvHŞ©pp#Ic¡WË®,ª‘Øó.±ò_pª·jL¥é=Œ¹t,b±Ğ³’˜'"*ÄÜÅ·o}Ê»ğbj>É³B‰¨í©vÓÁıQÕ,€g!ÙÀpEK@UŠÆÓ‰"(b£S¨Üú	¬ÄéÄ	1ìUX¢rôÎuv7€¡°6Í/A/ûŸñÍ|6ÈİJë›ns9¢¥¢)WĞ|ÃP©XèÜÅ9dÄ	ëZUX¤ÆÊ_ŞW%ˆ@`Ó=v
+îÛ…>äu$†ËvÔÑåÏ“Š7Z[Ád‹áñ£3Q»ìæ
+ÜØ
+ßDê şUZğ(vcûS>]]YÖÈ=~_[["Ap§à™¤	0½å‰ßR„E0*ÃRšÜÄú§8Mm…¾xUZğ8,+ßŞNğÁWd{ûäƒ¾×"jˆâ»ù.N©ŒâÂ¢ÍÄì¿€î|r(B–
+[2016/04/22 10:08:28 747] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:28 771] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:28 771] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:28 776
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:28 778
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:28 771] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:28 772] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:28 772] isr_1conn  425  size =   610  
+[2016/04/22 10:08:28 772] isr_1conn  457  response  
+[2016/04/22 10:08:28 772] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:28 772] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:28 782] isr_1conn  311  send_ok_num, timer_num, send_average =   10248  8  1281  
+[2016/04/22 10:08:28 782] isr_1conn  314  netperf =   90  
+[2016/04/22 10:08:28 943] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:28 946] isr_1conn  1210 [session] send 18th audio  
+[2016/04/22 10:08:28 947] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:28 947] transport  1191 build http request.  
+[2016/04/22 10:08:28 947] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc584UKcJXsRE8goAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+q@¨Èõœ‡@ORúRdœ&Äa_hLV¼
+D¨2ÄmğX+ÙOƒ+>ª-ÕiŞ3SÉ¤Ä	İjÜø,ÒUZú	«õïŒ…±z²•©2üz£mvCôD§á©à'„şB‰‰ƒ,¾¢f@Ò›g
+§ZüÜìÿÜÄnUZì²¨ÊË_šáŠX-•ØZ  
+[2016/04/22 10:08:28 948] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:28 972] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:28 972] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:28 976
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:28 979
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:28 972] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:28 972] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:28 972] isr_1conn  425  size =   610  
+[2016/04/22 10:08:28 973] isr_1conn  457  response  
+[2016/04/22 10:08:28 973] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:28 973] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:29 143] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:29 147] isr_1conn  1210 [session] send 19th audio  
+[2016/04/22 10:08:29 147] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:29 147] transport  1191 build http request.  
+[2016/04/22 10:08:29 147] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc5816lROEBtBTIoAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+´Ls“gu#Ø¢ÍÃ2ÇÚ¯E¢æ®i¨ø¡&¥Q·EVÄî‘Cæåé!Ê£SØìø|ıKØÅKÈÄUX£È¶Š»Ş•GÍ¾öçŠòÃëg¸Fíc¿Ä¯ï×€S¨k
+ZÃ€Ñ'Ï¬aÈsSËlşè¬ãHAÚ1XUX·6êâv!^zpÔ[*ßZñÈ¸Úóš“Ÿ…HÕQR®Jœ#@ãSÛÙDjéX*1D½,¾UX´ p_ş"»¶/âCæû€¤EÔ¢+ô>ÎF«Èóbœ~¦‚*`t5-ˆ…óÓ­[¿âíÚ·!  
+[2016/04/22 10:08:29 149] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:29 173] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:29 174] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:29 177
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:29 180
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:29 174] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:29 174] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:29 174] isr_1conn  425  size =   610  
+[2016/04/22 10:08:29 174] isr_1conn  457  response  
+[2016/04/22 10:08:29 174] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:29 174] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:29 194] isr_1conn  311  send_ok_num, timer_num, send_average =   11468  9  1274  
+[2016/04/22 10:08:29 194] isr_1conn  314  netperf =   90  
+[2016/04/22 10:08:29 345] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:29 350] isr_1conn  1210 [session] send 20th audio  
+[2016/04/22 10:08:29 350] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:29 350] transport  1191 build http request.  
+[2016/04/22 10:08:29 350] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58/Iyd7GJI0q3oAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+Fˆ§Nn²Ãîw]‘liõUUUUUUvø3SSSSSSSPéFdttttttsRÜÄÜÄÜÄ	ÜÄU_ôróI—h‡iİêkP9Wé­é3SSSSSSSP)DtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIh’iİé3SSSSSSSL)ê°`Õé£ûsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIChÒiİé3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄmçÀÒû¶óIahíiİ+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahßíTôÜ_Ú+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ+i3SSSSS+ë$DDÑúttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜáîNØÕ[C­U_ôróIahíiİ+i3SSSSSSSHiDtttttt
+[2016/04/22 10:08:29 351] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:29 386] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:29 386] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:29 379
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:29 382
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:29 387] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:29 387] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:29 387] isr_1conn  425  size =   610  
+[2016/04/22 10:08:29 387] isr_1conn  457  response  
+[2016/04/22 10:08:29 387] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:29 387] isr_1conn  595  0  2  2  1  
+[2016/04/22 10:08:29 546] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:29 558] isr_1conn  1210 [session] send 21th audio  
+[2016/04/22 10:08:29 558] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:29 558] transport  1191 build http request.  
+[2016/04/22 10:08:29 559] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc586b3Nn0gM/jNoAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+‹M¹MÜ#Zíiİ+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ¶e›!ß½&i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ+i3SSSSSSSHiê°`Õé£ûsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄmçÀÒû¶óIahíiİ+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahßíTôÜ_Ú+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ+i3SSSSS+ë$DDÑúttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜáîNØÕ[C­U_ôróIahíiİ+i3SSSSSSSHiDtttttt
+[2016/04/22 10:08:29 560] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:29 598] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:29 598] transport  1563 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 333
+X-Req-Date: 2016/04/22 10:08:29 588
+Cache-Control: no-cache
+CL: 333
+X-Res-Date: 2016/04/22 10:08:29 596
+
+----
+Content-Length:176
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&rss=0&eps=1&rcs=0&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc588irsDHtuaHnoAbJ1fi3OfM=
+----
+Content-Length:16
+Content-Type:binary/recresult;charset=gb2312
+Content-Encoding:encrypt/0.2
+
+‘”$MP)  
+[2016/04/22 10:08:29 599] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:29 599] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:29 599] isr_1conn  425  size =   610  
+[2016/04/22 10:08:29 599] isr_1conn  457  response  
+[2016/04/22 10:08:29 599] isr_1conn  519  resp_syncid =  1  
+[2016/04/22 10:08:29 599] isr_1conn  595  1  0  0  1  
+[2016/04/22 10:08:29 599] isr_1conn  624  [session] got 1th result  
+[2016/04/22 10:08:29 599] isr_1conn  636  time from first audio to first result:  4062  .  
+[2016/04/22 10:08:29 599] isr_1conn  304  netperf =   100  
+[2016/04/22 10:08:29 747] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:29 748] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  2  
+[2016/04/22 10:08:29 765] isr_1conn  1210 [session] send 22th audio  
+[2016/04/22 10:08:29 765] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:29 765] transport  1191 build http request.  
+[2016/04/22 10:08:29 765] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58w44SFkd5mREoAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+‹M¹MÜ#Zíiİ+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ¶e›!ß½&i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ+i3SSSSSSSHiê°`Õé£ûsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄmçÀÒû¶óIahíiİ+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahßíTôÜ_Ú+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ+i3SSSSS+ë$DDÑúttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜáîNØÕ[C­U_ôróIahíiİ+i3SSSSSSSHiDtttttt
+[2016/04/22 10:08:29 767] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:29 782] isr_1conn  1210 [session] send 23th audio  
+[2016/04/22 10:08:29 782] isr_1conn  1212 totalsz =   610  
+[2016/04/22 10:08:29 782] transport  1191 build http request.  
+[2016/04/22 10:08:29 782] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 897
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58^mT2GxEzpuAoAbJ1fi3OfM=
+----
+CL:616
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+‹M¹MÜ#Zíiİ+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ¶e›!ß½&i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ+i3SSSSSSSHiê°`Õé£ûsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄmçÀÒû¶óIahíiİ+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahßíTôÜ_Ú+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ+i3SSSSS+ë$DDÑúttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜáîNØÕ[C­U_ôróIahíiİ+i3SSSSSSSHiDtttttt
+[2016/04/22 10:08:29 784] transport  483  [soc] [0] send ok  1072  
+[2016/04/22 10:08:29 793] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:29 793] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:29 795
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:29 799
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:29 793] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:29 794] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:29 794] isr_1conn  425  size =   610  
+[2016/04/22 10:08:29 794] isr_1conn  457  response  
+[2016/04/22 10:08:29 794] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:29 794] isr_1conn  595  0  0  2  1  
+[2016/04/22 10:08:29 808] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:29 808] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 170
+X-Req-Date: 2016/04/22 10:08:29 812
+Cache-Control: no-cache
+CL: 170
+X-Res-Date: 2016/04/22 10:08:29 815
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&eps=1&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xmhs5T9hkChoAbJ1fi3OfM=  
+[2016/04/22 10:08:29 809] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:29 809] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:29 809] isr_1conn  425  size =   610  
+[2016/04/22 10:08:29 809] isr_1conn  457  response  
+[2016/04/22 10:08:29 809] isr_1conn  519  resp_syncid =  0  
+[2016/04/22 10:08:29 809] isr_1conn  595  0  0  2  1  
+[2016/04/22 10:08:29 948] isr_1conn  1827 ASR_CLOUD_MSG_AUW  320  4  
+[2016/04/22 10:08:29 951] isr_1conn  1182 no_audio is true  
+[2016/04/22 10:08:29 951] isr_1conn  1210 [session] send 24th audio  
+[2016/04/22 10:08:29 951] isr_1conn  1212 totalsz =   122  
+[2016/04/22 10:08:29 951] transport  1191 build http request.  
+[2016/04/22 10:08:29 951] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 409
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:174
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=4&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58xLjnLX8sFBpoAbJ1fi3OfM=
+----
+CL:128
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+‹M¹MÜ#Zíiİ+i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄU_ôróIahíiİ¶e›!ß½&i3SSSSSSSHiDtttttttsR	ÜÄ	ÜÄ	ÜÄ	ÜÄ  
+[2016/04/22 10:08:29 952] isr_1conn  1238 [session] send last audio!  
+[2016/04/22 10:08:29 952] isr_1conn  1256 send rslt request  
+[2016/04/22 10:08:29 952] transport  1191 build http request.  
+[2016/04/22 10:08:29 952] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 168
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=iat&cmd=grs&cver=5%2E0%2E16%2E1109&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc58zOPjFb26YzcoAbJ1fi3OfM=  
+[2016/04/22 10:08:29 952] transport  483  [soc] [0] send ok  584  
+[2016/04/22 10:08:29 953] transport  483  [soc] [0] send ok  326  
+[2016/04/22 10:08:29 985] transport  495  [soc] [0] readable  
+[2016/04/22 10:08:29 986] transport  1563 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 324
+X-Req-Date: 2016/04/22 10:08:29 980
+Cache-Control: no-cache
+CL: 324
+X-Res-Date: 2016/04/22 10:08:29 992
+
+----
+Content-Length:176
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E16%2E1109&rss=5&eps=3&rcs=2&key=0f4Aqx3WWP1fvCgYO8Yt5IktLOYYOo2mkfnTgQcOANJQw^HBywnTxKrfiC5MEhMcytZuZOZeApleKgBsnV^Lc584ONsu/TuvMhoAbJ1fi3OfM=
+----
+Content-Length:8
+Content-Type:binary/recresult;charset=gb2312
+Content-Encoding:encrypt/0.2
+
+u 3:¯Æw
+------  
+[2016/04/22 10:08:29 986] transport  1310 a_complete_httpmessage  200  
+[2016/04/22 10:08:29 986] isr_1conn  421  [trans] [isr_1conncisr1PdHHBHyPNxTuq7RaaPTHtOLuhFlW5] readable  
+[2016/04/22 10:08:29 986] isr_1conn  425  size =   122  
+[2016/04/22 10:08:29 986] isr_1conn  434  send_ok_num, timer_num, send_average =   14030  10  1403  
+[2016/04/22 10:08:29 986] isr_1conn  437  netperf =   90  
+[2016/04/22 10:08:29 986] isr_1conn  441  start netperf_grs_timer  
+[2016/04/22 10:08:29 986] isr_1conn  457  response  
+[2016/04/22 10:08:29 986] isr_1conn  519  resp_syncid =  2  
+[2016/04/22 10:08:29 986] isr_1conn  595  2  5  2  3  
+[2016/04/22 10:08:29 986] isr_1conn  1256 send rslt request  
+[2016/04/22 10:08:29 986] isr_1conn  609  [session] got last result  
+[2016/04/22 10:08:29 986] isr_1conn  614  time from last audio to last result:  31  .  
+[2016/04/22 10:08:29 986] isr_1conn  615  time from session-begin to session-end:  4594  .  
+[2016/04/22 10:08:29 986] network    84   ipfromenv ,  ipcache  dev.voicecloud.cn  def  117.121.21.148  
+[2016/04/22 10:08:29 986] transport  914  cached ip is confirmed  
+[2016/04/22 10:08:29 988] transport  1170 [soc] disconnect   
+[2016/04/22 10:08:29 988] isr_1conn  624  [session] got 2th result  
+[2016/04/22 10:08:30 252] isr_1conn  2046 ASR_CLOUD_MSG_SSE  
+[2016/04/22 10:08:30 252] isr_1conn  1285 isr_1conn session info  
+[2016/04/22 10:08:30 254] isr_1conn  2187 session finished! ret =   0  

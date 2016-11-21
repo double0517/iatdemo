@@ -1,0 +1,121 @@
+============================================================
+Time  2016/04/28 21:00:44 979 
+============================================================
+[2016/04/28 21:00:44 990] isr_1conn  2218 SYS_MSG_LOAD_CLOUD  
+[2016/04/28 21:00:44 990] isr_1conn  2239 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(34cd898) 
+[2016/04/28 21:00:44 990] isr_1conn  2239 SYS_MSG_REGCB_CLOUD param0 =   cloud_rslt_cb  param1 =  func(34cd398) 
+[2016/04/28 21:00:44 990] isr_1conn  2239 SYS_MSG_REGCB_CLOUD param0 =   cloud_err_cb  param1 =  func(34cd718) 
+[2016/04/28 21:00:44 990] isr_1conn  2239 SYS_MSG_REGCB_CLOUD param0 =   cloud_status_cb  param1 =  func(34cd798) 
+[2016/04/28 21:00:44 990] isr_1conn  1417 onesoc  
+[2016/04/28 21:00:44 990] isr_1conn  1418 ASR_CLOUD_MSG_SSB  
+[2016/04/28 21:00:44 990] isr_1conn  1433 isr_1conn  cloud_cisr1P1HHBHylAIGa+ycDaatbF18umRZ5n9  268436457  1442971076  
+[2016/04/28 21:00:44 990] isr_1conn  1488 not login!  
+[2016/04/28 21:00:44 992] isr_1conn  1621 nil  
+[2016/04/28 21:00:44 992] isr_1conn  1691 speex-wb  
+[2016/04/28 21:00:44 992] isr_1conn  1769 net_once_bytes  nil  
+[2016/04/28 21:00:44 992] isr_1conn  1774 need_encode  true  
+[2016/04/28 21:00:44 992] isr_1conn  1776 once bytes  122  
+[2016/04/28 21:00:44 993] isr_1conn  1800 User set url is   nil  
+[2016/04/28 21:00:44 993] config     78   select default  
+[2016/04/28 21:00:44 993] config     93   use general cloud  
+[2016/04/28 21:00:44 993] transport  603  paramkvsport is   nil  
+[2016/04/28 21:00:44 993] transport  611  ns_enable=  0  
+[2016/04/28 21:00:44 993] transport  655  url.full=  nil  
+[2016/04/28 21:00:44 993] transport  838  net type:  standard  
+[2016/04/28 21:00:44 993] transport  839  net operator:  def  
+[2016/04/28 21:00:44 993] transport  840  use proxy:  false  
+[2016/04/28 21:00:44 993] transport  1071 ns_enable =  0  
+[2016/04/28 21:00:44 999] transport  155  [dns] [0] response 59.107.24.11  
+[2016/04/28 21:00:44 999] transport  163  59  107  24  11  
+[2016/04/28 21:00:44 999] transport  192  iplist not avail  
+[2016/04/28 21:00:44 999] transport  251  no iplist now  
+[2016/04/28 21:00:44 999] network    89   iptoenv ,  ipcache  dev.voicecloud.cn  def  59.107.24.11  
+[2016/04/28 21:00:45 000] transport  1138 [soc] connect   59.107.24.11  80  
+[2016/04/28 21:00:45 000] transport  1155 mspsoc.open,prot_type=  tcp  
+[2016/04/28 21:00:45 046] transport  461  [soc] [0] connected  
+[2016/04/28 21:00:45 046] isr_1conn  389  transport connect ok  
+[2016/04/28 21:00:45 048] isr_1conn  1127 send ssb request  
+[2016/04/28 21:00:45 048] isr_1conn  852  lver:  nil  
+[2016/04/28 21:00:45 048] isr_1conn  857  cfg_ver:  nil  
+[2016/04/28 21:00:45 048] transport  1191 build http request.  
+[2016/04/28 21:00:45 048] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 549
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:184
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=ssb&ssm=1&auf=audio%2FL16%3Brate%3D16000&cver=5%2E0%2E16%2E1109&net%5Ftype=standard&csid=cisr1P1HHBHylAIGa%2BycDaatbF18umRZ5n9&key=0c4G4KJ85svIzlalf6oDdrzA==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+gúê—‚ﬁÆòÅxyxy|z{|  
+[2016/04/28 21:00:45 049] transport  483  [soc] [0] send ok  724  
+[2016/04/28 21:00:45 177] isr_1conn  1827 ASR_CLOUD_MSG_AUW  6400  1  
+[2016/04/28 21:00:45 177] isr_1conn  1844 RIFF  WAVE  
+[2016/04/28 21:00:45 177] isr_1conn  1847 fmt   
+[2016/04/28 21:00:45 177] isr_1conn  1850 data  
+[2016/04/28 21:00:45 180] isr_1conn  1210 [session] send 1th audio  
+[2016/04/28 21:00:45 180] isr_1conn  1212 totalsz =   488  
+[2016/04/28 21:00:45 180] isr_1conn  1215 start netperf_fs_timer  
+[2016/04/28 21:00:45 180] transport  1191 build http request.  
+[2016/04/28 21:00:45 180] transport  1291 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 736
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:133
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=1&cver=5%2E0%2E16%2E1109&csid=cisr1P1HHBHylAIGa%2BycDaatbF18umRZ5n9&key=0cv/3v4xt9ZKvlalf6oDdrzA==
+----
+CL:496
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+7qIrceN]›››››››≥'¡AAaAVQÚ…Ö/vìÌF‡‚(‚oºf/ïÄòUÄïÖÖÉN≤	6˘0lêxº9ûö2.5¡äÏóYvô√kZÍh~‚îónÆ?Œ5  
+[2016/04/28 21:00:45 181] transport  483  [soc] [0] send ok  911  
+[2016/04/28 21:00:45 204] transport  495  [soc] [0] readable  
+[2016/04/28 21:00:45 204] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 118
+X-Req-Date: 2016/04/28 21:00:44 379
+Cache-Control: no-cache
+CL: 118
+X-Res-Date: 2016/04/28 21:00:44 388
+
+ver=MSSP+0%2E9&ret=10407&cver=5%2E0%2E16%2E1109&key=0dwRwDTPxfLIyt6LQS/qnUXwirv1rY82iV^2GdJ7hwv/acacJAk0EnHSH6Hft2OB01  
+[2016/04/28 21:00:45 204] transport  1310 a_complete_httpmessage  200  
+[2016/04/28 21:00:45 206] transport  1419 is_update  true  
+[2016/04/28 21:00:45 206] transport  1423 port updated  80  
+[2016/04/28 21:00:45 206] transport  1425 switch  80  
+[2016/04/28 21:00:45 206] isr_1conn  421  [trans] [isr_1conncisr1P1HHBHylAIGa+ycDaatbF18umRZ5n9] readable  
+[2016/04/28 21:00:45 206] isr_1conn  460  MSS:bad response:10407  
+[2016/04/28 21:00:45 206] isr_1conn  463  bad sid =   iat34ZDjk12@gzQniV0a7d557c3cf30e  
+[2016/04/28 21:00:45 230] transport  495  [soc] [0] readable  
+[2016/04/28 21:00:45 230] transport  1563 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 118
+X-Req-Date: 2016/04/28 21:00:44 511
+Cache-Control: no-cache
+CL: 118
+X-Res-Date: 2016/04/28 21:00:44 512
+
+ver=MSSP+0%2E9&ret=10324&cver=5%2E0%2E16%2E1109&key=0dwRwDTPxfLIyt6LQS/qnUXwirv1rY82iV^2GdJ7hwv/ZQ88KmQFXgviH6Hft2OB01  
+[2016/04/28 21:00:45 230] transport  1310 a_complete_httpmessage  200  
+[2016/04/28 21:00:45 230] isr_1conn  421  [trans] [isr_1conncisr1P1HHBHylAIGa+ycDaatbF18umRZ5n9] readable  
+[2016/04/28 21:00:45 230] isr_1conn  460  MSS:bad response:10324  
+[2016/04/28 21:00:45 377] isr_1conn  2046 ASR_CLOUD_MSG_SSE  
+[2016/04/28 21:00:45 378] isr_1conn  1285 isr_1conn session info  
+[2016/04/28 21:00:45 378] isr_1conn  2187 session finished! ret =   10407  
